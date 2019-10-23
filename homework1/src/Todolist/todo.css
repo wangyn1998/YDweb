@@ -1,0 +1,36 @@
+*{
+    list-style: none;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: black;
+    /* width: 100%; */
+}
+.int{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+.add{
+    width: 500px;
+    height: 40px;
+    background: gray;
+    font-size: 24px;
+    border-radius: 3px;
+    border: gray solid 2px;
+    
+}
+.add input{
+    height: 30px;
+    width: 40px;
+    margin-top:5px;
+}
+.add button{
+    float: right;
+    height: 36px;
+    font-style: 10px;
+    border-radius: 5px;
+    border: gray solid 1px;
+}
