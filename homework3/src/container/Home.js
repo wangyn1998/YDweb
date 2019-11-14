@@ -49,7 +49,7 @@ export default class Home extends Component {
                 style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight }}
                 >
                   <img
-                  src={'/images/home'+val+'.png'}
+                  src={'./images/home'+val+'.png'}
                   alt=""
                   style={{ width: '100%', verticalAlign: 'top' }}
                   onLoad={() => {
@@ -67,8 +67,7 @@ export default class Home extends Component {
                 columnNum={3}
                 renderItem={(dataItem)  => (
                   <div style={{ padding: '10px'}}>
-                    <img src={'/images/home'+ dataItem.data +'.jpg'} style={{ width: '100%', height: '90%' }} alt="" />
-                    <img src={'/images/home'+ dataItem.data +'.png'} style={{ width: '100%', height: '90%' }} alt="" />
+                    <img src={'./images/home'+ dataItem.data +'.png'} style={{ width: '100%', height: '90%' }} alt="" />
                     <p style={{position:'absolute',top:'40%',left:'35%',color:'white'}}>{dataItem.text}</p>
                   </div>
                 )}
@@ -80,7 +79,7 @@ export default class Home extends Component {
                   thumb={<div style={{background:"#3fcccb",height:'20px',width:'5px'}}></div>}
                 />
                 <Card.Body>
-                  <img src="/images/tuijian.jpg" style={{width:'100%',padding:'0',margin:'0'}}/>
+                  <img src="./images/tuijian.png" style={{width:'100%',padding:'0',margin:'0'}}/>
                   <p style={{marginTop:'-20px',color:'white'}}> 什么是英伦装修风格 英伦风家装 英伦风装修效果图</p>
                 </Card.Body>
               </Card>       

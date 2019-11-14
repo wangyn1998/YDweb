@@ -103,7 +103,7 @@ export default class Store extends Component {
                         <div className="iconfont icon-icon_screen_pitchonx" style={{position:'absolute',top:'6%',left:'2%',color:'white'}}></div>
                         <input placeholder='输入关键字搜索商品' style={{height:'30px',width:'90%',position:'absolute',top:'5%',left:'8%',borderRadius:'5px',border:'none',backgroundColor:'#f5e9e2'}}/>
                         <img
-                            src={'/images/store.png'}
+                            src={'./images/store.png'}
                             alt=""
                             style={{ width: '100%', verticalAlign: 'top' }}
                             onLoad={() => {
@@ -136,7 +136,7 @@ export default class Store extends Component {
                 columnNum={2}
                 renderItem={(dataItem)  => (
                     <div style={{width:'100%',height:'100%',margin:'0 auto'}}>
-                        <img src={'/images/store'+ dataItem.data+'.png'} style={{height:'70%',height:'80%'}}/>
+                        <img src={'./images/store'+ dataItem.data+'.png'} style={{height:'70%',height:'80%'}}/>
                         <div style={{ fontSize: '8px' }}>
                             <p style={{color:'#686868',position:'absolute',left:'0',bottom:'10%'}}>{dataItem.text}</p>
                             <p style={{color:'#3b3b3b',position:'absolute',left:'0',bottom:'0'}}>{dataItem.price}</p>

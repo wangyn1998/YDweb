@@ -51,11 +51,9 @@ export default class Inspiration extends Component {
                     columnNum={2}
                     renderItem={(dataItem)  => (
                     <div style={{ padding: '10px',width:'100%',height:'100%'}}>
-                        <img src={'/images/inspiration'+ dataItem.data +'.jpg'} style={{ width: '100%', height: '90%' }} alt="" />
-                        <img src={'/images/inspiration'+ dataItem.data +'.png'} style={{ width: '100%', height: '90%' }} alt="" />
+                        <img src={'./images/inspiration'+ dataItem.data +'.png'} style={{ width: '100%', height: '90%' }} alt="" />
                         <div>
-                            <img src={'/images/p'+ dataItem.data +'.jpg'} style={{ width: '10%', height: '10%',float:'left' }} alt="" />
-                            <img src={'/images/p'+ dataItem.data +'.png'} style={{ width: '10%', height: '10%',float:'left' }} alt="" />
+                            <img src={'./images/p'+ dataItem.data +'.png'} style={{ width: '10%', height: '10%',float:'left' }} alt="" />
                             <span style={{float:'left',marginLeft:'10%',marginTop:'5%'}}>{dataItem.text}</span>
                             <span className="iconfont icon-love" style={{color:'red'}}></span>
                         </div>
